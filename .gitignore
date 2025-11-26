@@ -1,0 +1,11 @@
+# Don't upload massive zip files
+LIRIS-ACCEDE-data.zip
+LIRIS-ACCEDE-continuous-movies.zip
+LIRIS-ACCEDE-continuous-physiological.zip
+
+# Optional: OS/editor junk
+__pycache__/
+*.py[cod]
+*.DS_Store
+Thumbs.db
+.vscode/
