@@ -1,11 +1,17 @@
-# Don't upload massive zip files
-LIRIS-ACCEDE-data.zip
-LIRIS-ACCEDE-continuous-movies.zip
-LIRIS-ACCEDE-continuous-physiological.zip
-
-# Optional: OS/editor junk
 __pycache__/
 *.py[cod]
-*.DS_Store
-Thumbs.db
+.ipynb_checkpoints/
 .vscode/
+.env
+.venv/
+env/
+venv/
+
+# big datasets
+data/liris_discrete/raw_videos/
+data/liris_continuous/movies/
+data/liris_continuous/physio/
+Discrete/LIRIS-ACCEDE-data.zip
+Continuous/LIRIS-ACCEDE-continuous-movies.zip
+Continuous/LIRIS-ACCEDE-continuous-physiological.zip
+*.mp4
